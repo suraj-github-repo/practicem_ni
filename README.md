@@ -1,1 +1,0 @@
-# practicem_ni
