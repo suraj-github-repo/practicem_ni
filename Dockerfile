@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 RUN a2enmod rewrite
 
 # Expose port 80 for Apache
-EXPOSE 80
+EXPOSE 8022
 
 # Start the Apache server
 CMD ["apache2-foreground"]
